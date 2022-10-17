@@ -57,7 +57,7 @@ class BinarySearchTree {
     } else if(data > node.data) {
       return this.search(node.right, data); 
     } else {
-      return node; 
+      return node.data; 
     }
   }
 
